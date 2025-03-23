@@ -20,4 +20,5 @@ Following data preprocessing, the dataset is split into training and testing set
 Feature scaling techniques such as standardization or normalization are applied where necessary, particularly for models sensitive to the magnitude of numerical values. Hyperparameter tuning using GridSearchCV is performed to optimize the selected model’s parameters. Evaluation metrics, including accuracy, precision, recall, and F1-score, are used to assess classification performance. A confusion matrix is generated to provide insights into correct and incorrect predictions.
 
 Feature importance analysis is conducted to determine the most influential variables affecting survival predictions. Variables such as passenger class, fare, and gender exhibit significant contributions to the classification outcome. Finally, the trained model is saved using joblib or pickle, allowing for future predictions on new data. The entire process demonstrates an end-to-end machine learning workflow, from data preprocessing and feature engineering to model training, evaluation, and deployment.
-**OUTPUT**: 
+
+**OUTPUT**: ![Image](https://github.com/user-attachments/assets/60572b16-7925-452e-ab03-e83991108c1e)
